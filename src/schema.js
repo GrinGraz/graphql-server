@@ -1,7 +1,7 @@
 const _ = require('lodash')
 
-const Authors = require('./data/authors'); // This is to make available authors.json file
-const Posts = require('./data/posts'); // This is to make available post.json file
+// const Authors = require('./data/authors'); // This is to make available authors.json file
+// const Posts = require('./data/posts'); // This is to make available post.json file
 
 /* Here a simple schema is constructed without using the GraphQL query language. 
   e.g. using 'new GraphQLObjectType' to create an object type 
@@ -25,9 +25,9 @@ const DevType = new GraphQLObjectType({
     name: {type: new GraphQLNonNull(GraphQLString)},
     specialty: {type: new GraphQLNonNull(GraphQLString)},
     vertical: {type: new GraphQLNonNull(GraphQLString)},
-    avatar: {type: new GraphQLString},
+    avatar: {type: GraphQLString},
     techLangPlat: {type: new GraphQLNonNull(GraphQLString)},
-    techLangPlatLogo: {type: new GraphQLString}
+    techLangPlatLogo: {type: GraphQLString}
   })
 });
 
