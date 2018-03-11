@@ -1,0 +1,31 @@
+{
+  "name": "graphserver",
+  "version": "0.0.1",
+  "description": "Testing purpose GraphQl server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GrinGraz/graphql-server.git"
+  },
+  "keywords": [
+    "graphql",
+    "server",
+    "express",
+    "node.js"
+  ],
+  "author": "Christopher Ruz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GrinGraz/graphql-server/issues"
+  },
+  "homepage": "https://github.com/GrinGraz/graphql-server#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "lodash": "^4.17.5"
+  }
+}
