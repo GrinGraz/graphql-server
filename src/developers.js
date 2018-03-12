@@ -32,7 +32,7 @@ const Developers = [
         devVertical: "Consumers",
         devName: "Ignacio Gomez", 
         devAvatar: "url-avatar",
-        devTechLangPlat: "iOs",
+        devTechLangPlat: "iOS",
         devTechLangPlatLogo: url_logo_ios},
     {   
         id:'0005',
@@ -40,7 +40,7 @@ const Developers = [
         devVertical: "Autos",
         devName: "Bastian Veliz", 
         devAvatar: "url-avatar",
-        devTechLangPlat: "iOSd",
+        devTechLangPlat: "iOS",
         devTechLangPlatLogo: url_logo_ios},
     {   
         id:'0006',
