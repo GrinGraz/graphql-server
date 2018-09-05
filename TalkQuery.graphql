@@ -1,0 +1,5 @@
+query FeedQuery($type: Talk!, $limit: Int!) {
+  talkEntries: feed(type: $type, limit: $limit) {
+    id
+  }
+}

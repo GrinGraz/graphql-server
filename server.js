@@ -2,7 +2,7 @@ console.log('SERVER IGNITION!!!...');
 
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
-const schema = require('./src/schema.js')
+const schema = require('./src/schema2.js')
 let port = 3000;
 
 // Root provides a resolver function for each API endpoint
